@@ -1,1 +1,7 @@
-theme: jekyll-theme-cayman
+title       : Terraform - Azure Examples
+description : Curated selection of Terraform code and configuration, for Microsoft Azure.
+theme       : jekyll-theme-cayman
+
+navigation:
+- text: Home
+  url: /
