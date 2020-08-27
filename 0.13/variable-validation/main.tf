@@ -1,6 +1,6 @@
 # Variable Validation demonstration, Terraform 0.13
-# Note - probably not the place to enforce policies, this is just an example.
-# While naming conventions might be better suited for Azure Policy, it would still fail 
+# Note - Some of these might be a better fit for Azure Policy as this
+# is probably not the place to enforce policies. These are just examples.
 
 # Create a resource group, using the prefix rg- based on Azure naming convention
 variable "resource_group_name" {
