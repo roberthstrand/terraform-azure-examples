@@ -6,7 +6,7 @@ Custom variable validation was introduced as a production-ready feature from Ter
 
 Storage accounts naming can be a tricky thing. Not only do the name have to be a certain length, but you can only use numbers and lower case characters. By using variable validation, you can make sure that the input is correct without trying to create the resource.
 
-_For easier readability, I have split the three conditions to their own line but this will generate and error. Every condition needs to be on one line. If unsure, take a look at the [actual code here](main.tf)._
+_For easier readability, I have split the three conditions to their own line but this will generate and error. Every condition needs to be on one line. If unsure, take a look at the actual code here on [GitHub](https://github.com/roberthstrand/terraform-azure-examples/blob/master/0.13/variable-validation/main.tf)._
 
 ```hcl
 variable "storage_account_name" {
