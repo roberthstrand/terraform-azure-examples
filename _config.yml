@@ -5,3 +5,4 @@ theme       : jekyll-theme-cayman
 navigation:
 - text: Home
   url: /
+theme: jekyll-theme-slate
