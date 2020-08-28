@@ -5,4 +5,4 @@ theme       : jekyll-theme-cayman
 navigation:
 - text: Home
   url: /
-theme: jekyll-theme-midnight
+theme: jekyll-theme-tactile
