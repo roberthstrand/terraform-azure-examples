@@ -6,6 +6,7 @@ variable "project_name" {
   default = "terraform013"
 }
 
+# A set of strings with the environments we want to create.
 variable "environments" {
   type    = set(string)
   default = ["test","dev","prod"]
