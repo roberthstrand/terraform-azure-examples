@@ -11,11 +11,10 @@ resource "azurerm_virtual_network" "example" {
   }
 
   tags = data.azurerm_resource_group.example.tags
-
 }
 
-# resource "null_resource" "test" {
-#   triggers = {
-#     dependency_id = var.resource_group
-#   }
-# }
+resource "null_resource" "test" {
+  triggers = {
+    dependency_id = var.resource_group
+  }
+}
