@@ -1,7 +1,4 @@
 # Variable Validation demonstration, Terraform 0.13
-# Note - Some of these might be a better fit for Azure Policy as this
-# is probably not the place to enforce policies. These are just examples.
-
 
 resource "azurerm_resource_group" "demo" {
   name     = "storage-account-rg"
@@ -10,7 +7,8 @@ resource "azurerm_resource_group" "demo" {
 
 # Create a storage account, making sure the name sticks to naming limitations.
 variable "storage_account_name" {
-  type = string
+  type    = string
+  default = "thiswillFAILforALOTofreasons!"
   validation {
     condition     = (
                     length(var.storage_account_name) > 2 && 
