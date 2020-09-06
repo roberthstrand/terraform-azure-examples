@@ -1,6 +1,9 @@
 resource "random_string" "random" {
-  length = 4
-  special = false
+  length      = 3
+  special     = false
+  upper       = false
+  min_numeric = 1
+  min_lower   = 2
 }
 
 resource "azurerm_network_interface" "demo" {

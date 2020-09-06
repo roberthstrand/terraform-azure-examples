@@ -1,3 +1,5 @@
+# Example, using the count meta-argument on a child module.
+
 module "virtual_machine" {
   source = "./modules/windows_machine"
 

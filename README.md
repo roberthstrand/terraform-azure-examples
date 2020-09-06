@@ -4,8 +4,10 @@ _Feel free to use this code for your infrastructure. Just make sure you understa
 
 ## Examples based on scenarios
 
-## Examples, new features
+## Examples features
 
 ### Terraform 0.13
 
 * [Variable Validation](0.13/variable-validation/README.md)
+* [Count on Modules](0.13/count-module/README.md)
+* [For_each on modules](0.13/foreach-module/README.md)
