@@ -9,5 +9,5 @@ module "network" {
 
   resource_group = azurerm_resource_group.example.name
 
-  depends_on = [azurerm_resource_group.example]
+  #depends_on = [azurerm_resource_group.example]
 }
