@@ -11,8 +11,8 @@ variable "storage_account_name" {
   default = "thiswillFAILforALOTofreasons!"
   validation {
     condition     = (
-                    length(var.storage_account_name) > 2 && 
-                    length(var.storage_account_name) < 25 && 
+                    length(var.storage_account_name) > 2 &&
+                    length(var.storage_account_name) < 25 &&
                     can(regex("[a-z.*]|[0-9]", var.storage_account_name))
                     )
     error_message = "Storage account names must be between 3 and 24 characters in length and may contain numbers and lowercase letters only."
