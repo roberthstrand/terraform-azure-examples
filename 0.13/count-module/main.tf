@@ -8,5 +8,5 @@ module "virtual_machine" {
   subnet          = azurerm_subnet.demo.name
   resource_group  = azurerm_resource_group.demo.name
 
-  count  = 2
+  count  = 3
 }
